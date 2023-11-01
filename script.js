@@ -41,13 +41,13 @@
 
 // [1,2,3,4], ['a','b','c','d'] => [1, 2, 3, 4, 'a', 'b', 'c', 'd']
 // let num = [1, 2, 3, 4,]
-// let str =[`a`,`b`,`c`,`d`,]
-// console.log([num+ ' ' + str.join(',')])
+// let str = [ 'a', 'b', 'c', 'd']
+// console.log([...num , ...str.join('').split('')])
 
 // [2, 3, 4, 5], 'hello world' => [2, 3, 4, 5, 'hello world']
 // let num =[2, 3, 4, 5,]
-// let str = [`hello world`]
-// console.log([num+' ' +str])
+// let str = `hello world`
+// console.log([...num, str])
 
 // [2, 3, 4, 5], 'hello world' => [2, 3, 4, 5, 'h', 'e', 'l', 'l', 'o', 'w', 'o', 'r', 'l', 'd']
 // let num = [ 2, 3, 4, 5,]
